@@ -33,7 +33,7 @@
     #fffced,
     #fffced 80%,
     #fffced 10%,
-    rgba(255, 0, 0, 0)
+    rgba(255, 255, 255, 0)
   )
 }
 
@@ -50,10 +50,10 @@
 
 .intro-clouds-img {
   z-index: 1;
-  width: 60%;
+  width: 65%;
   height: auto;
-  left: 20%;
-  top: 4%;
+  left: 18%;
+  top: 2%;
   position: fixed;
 }
 

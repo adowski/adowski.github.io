@@ -24,6 +24,9 @@
   flex-direction: column;
   margin: 0 20px 20px 20px;
   padding: 5%;
+  justify-content: center;
+  /* align-content: center; */
+  align-items: center;
   /* grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
@@ -42,6 +45,9 @@
   flex-direction: column;
   margin: 0 20px 20px 20px;
   padding: 5%;
+  justify-content: center;
+  /* align-content: center; */
+  align-items: center;
   /* grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 2;
@@ -60,6 +66,9 @@
   flex-direction: column;
   margin: 0 20px 20px 20px;
   padding: 5%;
+  justify-content: center;
+  /* align-content: center; */
+  align-items: center;
   /* grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 2;
@@ -112,12 +121,13 @@
   font-family: sofia-pro, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 1.1vw;
 }
 
 .unloop-img {
   width: 40%;
   height: auto;
+  max-height: 200px;
   /* padding-bottom: 10%; */
   margin-left: 10px;
 }
@@ -135,20 +145,20 @@
 
 .unloop-title {
   font-weight: 1000;
-  font-size: 18px;
+  font-size: 1.5vw;
 }
 
 .unloop-desc {
   font-family: sofia-pro, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 1.1vw;
 }
 
 .login-img {
   width: 25%;
   height: auto;
-  max-height: 60%;
+  max-height: 100px;
   border-radius: 5%;
   margin-right: 10px;
 }
@@ -167,7 +177,7 @@
 
 .login-title {
   font-weight: 1000;
-  font-size: 18px;
+  font-size: 1.5vw;
 }
 
 .login-desc {
@@ -175,12 +185,12 @@
   font-family: sofia-pro, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 1.1vw;
 }
 
 .volta-img {
   width: 25%;
   height: auto;
-  max-height: 60%;
+  max-height: 100px;
   margin-right: 10px;
 }
