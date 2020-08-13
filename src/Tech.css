@@ -194,3 +194,102 @@
   max-height: 100px;
   margin-right: 10px;
 }
+
+@media (max-width: 768px) {
+
+  .tech-content {
+    z-index: 3;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    row-gap: 0px;
+    grid-template-areas: 
+      "cdfh"
+      "cdf"
+      "voltah"
+      "volta"
+      "bph"
+      "bp";
+  }
+
+  .tech-container1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+  }
+
+
+  .tech-container2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+  }
+
+
+  .tech-container3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    grid-area: bp;
+    border: 1px solid black;
+  }
+
+  .tech-desc {
+    font-family: sofia-pro, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vh;
+  }
+
+  .tech-title1 {
+    margin-left: 0%;
+    font-size: 16px;
+  }
+
+  .tech-title2 {
+    margin-left: 0%;
+    font-size: 16px;
+  }
+
+  .tech-title3 {
+    margin-left: 0%;
+    font-size: 16px;
+  }
+
+  .unloop-title {
+    font-size: 1.5vh;
+  }
+  
+  .unloop-desc {
+    font-family: sofia-pro, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vh;
+  }
+
+  .login-title {
+    font-size: 1.5vh;
+  }
+  
+  .login-desc {
+    font-size: 1.1vh;
+  }
+
+}
