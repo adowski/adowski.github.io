@@ -35,30 +35,33 @@ class App extends React.Component {
     return (
       <div>
         <div className="intro-container">
-          <h1 className="intro">Alison Dowski</h1>
-          <div className="links">
-            <div>
-              <a class="link-orange" href="#artist">
-                artist
-              </a>
-            </div>
-            <div>
-              <a class="link-orange" href="#tech">
-                technologist
-              </a>
-            </div>
-            <div className="link-long">
-              <a class="link-orange" href="#student">
-                student, musician, photographer, equestrian, digital art
-                enthusiast, curator of spotify playlists
-              </a>
+          {/* <div className="block-gradient" /> */}
+          <div className="block-img" />
+          <img src={clouds} className="intro-clouds-img" alt="circle of places" />
+          <img src={places} className="intro-places-img" alt="circle of places" />
+          <div className="intro-text">
+            <h1 className="intro">Alison Dowski</h1>
+            <div className="links">
+              <div>
+                <a class="link-orange" href="#artist">
+                  artist
+                </a>
+              </div>
+              <div>
+                <a class="link-orange" href="#tech">
+                  technologist
+                </a>
+              </div>
+              <div className="link-long">
+                <a class="link-orange" href="#student">
+                  student, musician, photographer, equestrian, digital art
+                  enthusiast, curator of spotify playlists
+                </a>
+              </div>
             </div>
           </div>
         </div>
-        <div className="block-gradient" />
-        <div className="block-img" />
-        <img src={clouds} className="intro-clouds-img" alt="circle of places" />
-        <img src={places} className="intro-places-img" alt="circle of places" />
+        
       </div>
     );
   }
